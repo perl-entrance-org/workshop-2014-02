@@ -18,7 +18,6 @@
       system
 
 - `plenv versions`とすることで, `5.18.2`が選択されているか確認しよう
-    - plenvのバージョンが古い方は`plenv list`で確認できます
 
 ## Hello, World!
     print "Hello, World!\n";
