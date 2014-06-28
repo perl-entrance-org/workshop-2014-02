@@ -8,6 +8,7 @@ my @slides = qw/ intro.md use.md scalar.md stdin-calc.md if-else.md logical-oper
 
 for my $file (@slides) {
     my $str = path($file)->slurp_utf8;
+    $str =~ s/^#/---\n#/;
     $str =~ s/\n#/---\n#/g;
     print $str;
 }
