@@ -145,3 +145,7 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+.reveal .slides code {
+  font-family: Consolas, Ricty, "Courier New", monospace;
+}
