@@ -201,14 +201,14 @@ ___
 - 今回は文字列を比較しているので, `==`ではなく`eq`を用いています
 ___
 ## 数値の比較と文字列の比較
-    if ('strings42' == 42) {
+    if ('42strings' == 42) {
       print "OK\n";
     }
 
 - `use warnings`が有効であれば, 文字列を数値用の比較演算子で比較しようとすると, 次のような警告を出力します
-    - `Argument "strings42" isn't numeric in numeric eq (==) at reply input line 1.`
+    - `Argument "42strings" isn't numeric in numeric eq (==) at reply input line 1.`
 - このような場合, Perlは文字列を無理やり数値として解釈して処理を継続します
-    - この場合, 'strings42'には`42`という数値が含まれているので, Perlは`==`の演算子の左辺は`42`として処理を実行します
+    - この場合, '42strings'には先頭に`42`という数値が含まれているので, Perlは`==`の演算子の左辺は`42`として処理を実行します
     - そのため, この比較は真となり, ｢OK｣という文字列が出力されます
 ___
 ## 数値の比較と文字列の比較
