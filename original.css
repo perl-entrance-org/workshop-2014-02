@@ -146,6 +146,8 @@ body {
 .reveal .slide-number {
   color: #13daec; }
 
-.reveal .slides code {
+.reveal .slides pre code {
+  font-size: 1.4em;
+  line-height: 1.2;
   font-family: Consolas, Ricty, "Courier New", monospace;
 }
