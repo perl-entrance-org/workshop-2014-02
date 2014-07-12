@@ -1,6 +1,7 @@
 # 標準入力
 
 ## 標準入力
+
     my $str = <STDIN>;
     chomp $str;
     print $str;
@@ -13,6 +14,7 @@
 # 四則演算
 
 ## 基本的な演算子(四則演算)
+
     my $hoge = 4;
     my $foo  = 2;
     my $res;
