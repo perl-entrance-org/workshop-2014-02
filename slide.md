@@ -452,7 +452,7 @@ ___
 ___
 ## 復習問題
 
-- <https://github.com/perl-entrance-org/workshop-2013-02/blob/master/practice.md>
+- <https://github.com/perl-entrance-org/workshop-2014-02/blob/master/practice.md>
 
   - 今回の内容を復習することができる問題集です
   - ご不明な点があれば, 気軽にスタッフまでお尋ねください
