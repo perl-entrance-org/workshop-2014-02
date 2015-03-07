@@ -16,11 +16,11 @@
 ## plenv
 
     $ plenv versions
-    * 5.18.2
+    * 5.20.2
       system
 
-- `plenv versions`とすることで, `5.18.2`が選択されているか確認してみよう
-  - 選択されていなければ, `plenv global 5.18.2` と実行しよう
+- `plenv versions`とすることで, `5.20.2`が選択されているか確認してみよう
+  - 選択されていなければ, `plenv global 5.20.2` と実行しよう
 
 ## Hello, World!
     print "Hello, World!\n";

@@ -98,12 +98,13 @@
     }
 
 - `elsif`を使うことで, 分岐条件をさらに増やすことができます
+    - PerlにはC言語の`switch`にあたるものはないので, `if`/`elsif`/`else`で代用しましょう
 
 ## 練習問題
     #!/usr/bin/env perl
     use strict;
     use warnings;
-    my $answer = 'perl'; # 好きな文字を入力
+    my $answer = 'perl'; # 好きな文字を入力しておく
 
 - 簡単な文字当てゲーム `question_word.pl`を作成しよう
 - 端末から文字列を一つ入力し, その文字列が`$answer`と一致したら`OK`, 外れたら`NG`と表示します

@@ -24,7 +24,7 @@
     #!/usr/bin/env perl
     use strict;
     use warnings;
-    my $answer = 1; # 好きな値をいれる
+    my $answer = 1; # 好きな値を入力しておく
 
 - 簡単な数当てゲーム `question_num.pl`を作成しよう
 - 端末から数字を一つ入力し, その数字が`$answer`と一致したら`OK`, `$answer`より大きければ`too big`, 小さければ`too small`と表示します
